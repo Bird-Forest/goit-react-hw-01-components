@@ -50,6 +50,6 @@ export const StatLabel = styled.span`
   font-weight: 500;
 `;
 export const StatPercentage = styled.span`
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 700;
 `;
