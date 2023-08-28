@@ -1,0 +1,32 @@
+[
+  {
+    "avatar": "https://cdn.pixabay.com/photo/2015/11/26/00/14/woman-1063100_640.jpg",
+    "name": "Mango",
+    "isOnline": true,
+    "id": 1812
+  },
+  {
+    "avatar": "https://cdn.pixabay.com/photo/2016/06/06/17/05/woman-1439909_640.jpg",
+    "name": "Kiwi",
+    "isOnline": false,
+    "id": 1137
+  },
+  {
+    "avatar": "https://cdn.pixabay.com/photo/2018/04/27/03/50/portrait-3353699_640.jpg",
+    "name": "Ajax",
+    "isOnline": true,
+    "id": 1213
+  },
+  {
+    "avatar": "https://cdn.pixabay.com/photo/2015/07/31/15/01/man-869215_640.jpg",
+    "name": "Jay",
+    "isOnline": true,
+    "id": 1714
+  },
+  {
+    "avatar": "https://cdn.pixabay.com/photo/2016/03/11/17/31/girl-1250679_640.jpg",
+    "name": "Poly",
+    "isOnline": false,
+    "id": 1284
+  }
+]
