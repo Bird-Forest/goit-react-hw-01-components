@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import friends from '../data/friends.json';
 import {
   FriendList,
@@ -23,14 +22,3 @@ export function Friends() {
     </FriendList>
   );
 }
-
-Friends.propTypes = {
-  friends: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.number.isRequired,
-      avatar: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-      isOnline: PropTypes.bool.isRequired,
-    })
-  ),
-};

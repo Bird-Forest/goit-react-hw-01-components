@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import {
   ProfileCard,
   Description,
@@ -45,15 +44,3 @@ export function Profile({
     </ProfileCard>
   );
 }
-
-Profile.propTypes = {
-  username: PropTypes.string.isRequired,
-  tag: PropTypes.string.isRequired,
-  location: PropTypes.string.isRequired,
-  avatar: PropTypes.string,
-  stats: PropTypes.shape({
-    followers: PropTypes.number,
-    views: PropTypes.number,
-    likes: PropTypes.number,
-  }),
-};

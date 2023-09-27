@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import transactions from '../data/transactions.json';
 import { Table, Thead, Trow, Th, Tbody, Td } from './Transaction.styled';
 
@@ -26,14 +25,3 @@ export function TransactionHistory() {
     </Table>
   );
 }
-
-TransactionHistory.propTypes = {
-  transactions: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.string.isRequired,
-      type: PropTypes.string.isRequired,
-      amount: PropTypes.number.isRequired,
-      currency: PropTypes.string.isRequired,
-    })
-  ),
-};
