@@ -1,7 +1,6 @@
-import transactions from '../data/transactions.json';
 import { Table, Thead, Trow, Th, Tbody, Td } from './Transaction.styled';
 
-export function TransactionHistory() {
+export function TransactionHistory({ transactions }) {
   return (
     <Table>
       <Thead>

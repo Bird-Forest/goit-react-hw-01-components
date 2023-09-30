@@ -1,4 +1,3 @@
-import friends from '../data/friends.json';
 import {
   FriendList,
   FriendItem,
@@ -7,7 +6,7 @@ import {
   FriendStatus,
 } from './FriendList.styled';
 
-export function Friends() {
+export function Friends({ friends }) {
   return (
     <FriendList>
       {friends.map(({ avatar, name, id, isOnline }) => {
